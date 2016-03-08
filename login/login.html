@@ -1,0 +1,7 @@
+<div>
+  <h1>Login</h1>
+  <div class="text-warning" ng-show="failed.failedLogin">Username or password is incorrect.</div>
+  <label> username: <input ng-model="username" type="text"> </label>
+  <label> password: <input ng-model="password" type="password"> </label>
+  <a href="#/dashboard" ng-click="login()">login</a>
+</div>
